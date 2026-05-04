@@ -1,0 +1,350 @@
+.body {
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  color: rgb(255, 255, 255);
+}
+
+/* Header */
+.header {
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1f2937;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 16px 48px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.album-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+h2 {
+  text-align: center;
+  color: #1f2937;
+}
+
+h3 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f3927;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+button.btn-second-button {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background: #3882f6;
+  color: #ffffff;
+  padding: 8px 13px;
+  margin-right: 30px;
+}
+
+.info {
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list {
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* For adding images into the boxes */
+.jollofImage {
+  background-image: url(./images/keesha-s-kitchen-PqG32DYCTM8-unsplash.jpg);
+}
+.noodlesImage {
+  background-image: url(./images/orijit-chatterjee-wEBg_pYtynw-unsplash.jpg);
+}
+.pizzaImage {
+  background-image: url(./images/chad-montano-MqT0asuoIcU-unsplash.jpg);
+}
+.riceImage {
+  background-image: url(./images/shreyak-singh-0j4bisyPo3M-unsplash.jpg);
+}
+
+.slogan {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.intro {
+  font-size: 14px;
+  color: #f9faf8;
+  font-weight: 100;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #1f2937;
+  padding: 48px;
+
+}
+
+.hero-section img {
+  border: 3px solid blue;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 48px;
+  background: white;
+  color: #1f3927;
+}
+
+* {
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+.intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.intro-content {
+  font-size: 18px;
+  color:#555;
+  text-align: center;
+  max-width: 700px;
+}
+
+/* For Images */
+.image-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px;
+}
+
+.image-holder img{
+  border: 3px solid blue;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Buttons */
+
+#home-btn, #menu-btn, #contact-btn {
+  border: none;
+  background: blue;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+#home-btn:hover, #menu-btn:hover, #contact-btn:hover {
+  border: none;
+  background: rgb(255, 255, 255);
+  color: blue;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 8px 34px;
+  cursor: pointer;
+}
+
+.sign, button.sign {
+  border: none;
+  border-radius: 10px;
+  background: #3882f6;
+  color: #ffffff;
+  padding: 8px 34px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  font-family: 'Roboto';  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  background: #1f2937;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  font-family: 'Roboto';  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  background: #1f2937;
+  color: rgb(153, 215, 240);
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Roboto';  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  background: #1f2937;
+  color: rgb(164, 156, 238);
+  
+}
+
+.note {
+  display: flex;
+  font-style: italic;
+  font-weight: lighter;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 48px;
+  margin: 80px;
+  background-color: #e7e5eb;
+  flex-direction: column;
+  font-size: 36px;
+}
+
+.list {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.caption {
+  background-color: #e7e5eb;
+  width: 90%;
+  padding: 48px;
+  margin: 40px auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For menu page */
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 48px;
+  gap: 24px;
+}
+
+.menu-wrapper h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color:#435774;
+  margin-bottom: 8px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  color:#435774;
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+}
+
+/* For Contact page */
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 48px;
+  gap: 24px;
+}
+
+.contact-wrapper h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color:#435774;
+  margin-bottom: 8px;
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+}
+
+.contact-wrapper p {
+  font-size: 16px;
+  color:#435774;
+  margin-bottom: 8px;
+}
+
+.map-holder img {
+  border: 3px solid blue;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.map-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}

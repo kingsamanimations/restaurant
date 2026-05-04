@@ -1,0 +1,226 @@
+.body {
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background: #1f2937;
+  color: rgb(255, 255, 255);
+  gap: 100px;
+  margin: 0%;
+}
+
+.header {
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background: #1f2937;
+  color: rgb(255, 255, 255);
+  gap: 400px;
+
+}
+
+.image-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+}
+
+.second-button {
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  border: none;
+  color: #ffffff;
+  padding: 8px 34px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 42px;
+}
+
+.body-text {
+  margin-bottom: 100px;
+}
+
+.footer {
+  font-family: 'Roboto';  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  background: #1f2937;
+  color: rgb(255, 255, 255);
+}
+
+.quote-text {
+  display: flex;
+  height: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  gap: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  gap: 40px;
+
+}
+
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.sign {
+  border: none;
+  border-radius: 8px;
+  background: #3882f6;
+  color: #ffffff;
+  padding: 8px 34px;
+}
+
+.image-text-box-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.note {
+  display: flex;
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin: 80px;
+  background-color: #e7e5eb;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f3927;
+  text-align: center;
+}
+
+.p-3 {
+  font-size: 18px;
+  text-align: end;
+}
+
+.lower-text {
+  background: #3882f6;
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+last-p {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: none;
+  flex-direction: row;
+}
+
+.left {
+  width: 80%;
+  margin-left: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h4 {
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+button.btn-second-button {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background: #3882f6;
+  color: #ffffff;
+  padding: 8px 13px;
+  margin-right: 30px;
+}
+
+/*For Image Frames */
+.box-blue {
+  border: 3px solid blue;
+  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.info {
+  font-family: 'Roboto Slab', 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-2 {
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* For adding images into the boxes */
+.box-1 {
+  background-image: url(./images/keesha-s-kitchen-PqG32DYCTM8-unsplash.jpg);
+}
+.box-2 {
+  background-image: url(./images/orijit-chatterjee-wEBg_pYtynw-unsplash.jpg);
+}
+.box-3 {
+  background-image: url(./images/chad-montano-MqT0asuoIcU-unsplash.jpg);
+}
+.box-4 {
+  background-image: url(./images/shreyak-singh-0j4bisyPo3M-unsplash.jpg);
+}

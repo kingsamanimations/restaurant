@@ -1,0 +1,6 @@
+[webpack-cli] Failed to load '/home/kingsam/restaurant/webpack.config.js' config
+▶ ESM (`import`) failed:
+  HtmlWebpackPlugin is not defined
+
+▶ CJS (`require`) failed:
+  HtmlWebpackPlugin is not defined
